@@ -1,0 +1,40 @@
+/* nav bar styles*/
+#navbar {
+    height: 100px;
+}
+
+#navbardiv {
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.listitem {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 5px;
+}
+
+.itemlist {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.linkstyle {
+    text-decoration: none;
+    color: black;
+    border: solid 1px #fb6d10;
+    border-radius: 5px;
+    padding: 10px;
+    transition-property: background, color;
+    transition-duration: 200ms;
+}
+
+.linkstyle:hover {
+    background-color: #fb6d10;
+    color: white;
+}
+
+.image {
+    height: 100px;
+}

@@ -1,0 +1,132 @@
+body {
+    background-image: url('../images/oasis.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* title styles*/
+.titlediv {
+    text-align: center;
+    margin: 5px;
+}
+
+.title {
+    font-size: 60px;
+    color: #fb6d10;
+    border-bottom: #fb6d10 solid 1px;
+    animation-name: colourswitch;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes colourswitch {
+    0% {color: #fb6d10;}
+    25% {color: black;}
+    50% {color: yellow;}
+    75% {color: red;}
+    100% {color: green;}
+}
+
+.intitle {
+    font-size: 30px;
+    color: black;
+}
+
+span {
+    text-align: center;
+}
+
+/* nav bar styles*/
+#navbar {
+    height: 100px;
+}
+
+#navbardiv {
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.listitem {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 5px;
+}
+
+.itemlist {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.linkstyle {
+    text-decoration: none;
+    color: black;
+    border: solid 1px #fb6d10;
+    border-radius: 5px;
+    padding: 10px;
+    transition-property: background, color;
+    transition-duration: 200ms;
+}
+
+.linkstyle:hover {
+    background-color: #fb6d10;
+    color: white;
+}
+
+.image {
+    height: 100px;
+}
+
+
+/* body styles*/
+.titlesdiv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titles {
+    color: #fb6d10;
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: #fb6d10 solid 1px;
+    border-radius: 2px;
+}
+
+p {
+    text-align: center;
+    color: black; 
+}
+
+/* flex box styles*/
+.flexcontainer {
+    display: flex;
+    margin-top: 30px;
+}
+
+.subbox {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.heading {
+    color: #fb6d10;
+    border-bottom: #fb6d10 1px solid;
+}
+
+.list {
+    color: black;
+    list-style-type: circle;
+}
+
+.box {
+    border: #fb6d10 solid 0.5px;
+    margin: 5px;
+}
+
+.lis {
+    margin: 10px;
+    padding: 4px;
+}
